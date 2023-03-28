@@ -5,7 +5,7 @@
 
 #Primeiro Modo
 dinheiro = int(input("Digite quanto dinheiro você pegou: "))
-nota100 = dinheiro//100
+nota100 = dinheiro//100#abc
 nota50= (dinheiro-nota100*100)//50
 nota20= (dinheiro-nota100*100-nota50*50)//20
 nota10= (dinheiro-nota100*100-nota50*50-nota20*20)//10
